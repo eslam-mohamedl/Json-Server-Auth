@@ -5,13 +5,13 @@ json-server + json-server-auth
 
 # 
 ## Features: 
-✅ User registration 
-✅ User login
-✅ WT Access Token (expires in 1 hour)
-✅ Access control management (Read / Write)
-✅ Fully fake database using db.json
-✅ Password encryption with bcrypt
-✅ Quick setup, ideal for prototyping and learning
+- ✅ User registration 
+- ✅ User login
+- ✅ WT Access Token (expires in 1 hour)
+- ✅ Access control management (Read / Write)
+- ✅ Fully fake database using db.json
+- ✅ Password encryption with bcrypt
+- ✅ Quick setup, ideal for prototyping and learning
 # 
 ## 🛠️ Installation & Running
 1. Clone the repository
