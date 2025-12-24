@@ -34,6 +34,7 @@ npx json-server db.json -m ./node_modules/json-server-auth --port 3000
 ## Body: 
 ```sh
 {
+  "name": "eslam mohamed",
   "email": "test@mail.com",
   "password": "123456"
 }
