@@ -4,7 +4,7 @@ A ready-to-use project for running a Fake Auth API using
 json-server + json-server-auth
 
 # 
-## Features: 
+## Features : 
 - ✅ User registration 
 - ✅ User login
 - ✅ WT Access Token (expires in 1 hour)
