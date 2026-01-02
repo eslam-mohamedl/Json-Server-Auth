@@ -107,6 +107,31 @@ npx json-server db.json -m ./node_modules/json-server-auth --port 3000
         "id": 8
     }
 }
+```
+##
+- `PATCH /users/1` - Update User
+## Body: 
+```sh
+{
+  "name": "ahmed Updated"
+}
+```
+- Response Example
+```sh
+{
+    "email": "ee.eslam355@gmail.com",
+    "password": "$2a$10$jlrCq8uPt74qjOTKe/j3u.Mthr3KZ9kqCwkKtUf8nCviofNfd/a4y",
+    "name": "ahmed Updated",
+    "id": 1
+}
+```
+##
+- `DELETE /users/1` - Delete User
+- ##
+- Response Example
+```sh
+{}
+```
 ##
 # 🔑 Authentication Flow
 - Passwords are encrypted using bcrypt.
