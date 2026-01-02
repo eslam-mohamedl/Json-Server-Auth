@@ -41,6 +41,18 @@ npx json-server db.json -m ./node_modules/json-server-auth --port 3000
   "password": "123456"
 }
 ```
+- Response Example
+```sh
+{
+    "accessToken": "xxx.yyy.zzz",
+    "user": {
+        "email": "test@mail.com",
+        "name": "eslam mohamed",
+        "id": 9
+    }
+}
+```
+
 - `POST /login` - Login
 ## Body: 
 ```sh
