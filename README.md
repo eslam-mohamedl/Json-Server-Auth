@@ -30,7 +30,9 @@ npx json-server db.json -m ./node_modules/json-server-auth --port 3000
 ```
 #
 ## 📌 Main Endpoints
-## 3 `POST /register` - Register
+## 1 - Request Register
+- Method :  POST
+- Endpoint :  /register 
 - Body: 
 ```sh
 {
