@@ -76,6 +76,38 @@ npx json-server db.json -m ./node_modules/json-server-auth --port 3000
 ]
 ```
 ##
+- `GET /users/1` - Get User
+## Response Example:
+```sh
+[
+  {
+    "id": 1,
+    "email": "example@gmail.com",
+    "name": "ahmed"
+  }
+]
+```
+##
+- `POST /users` - Create User
+## Body: 
+```sh
+{
+  "name": "eslam mohamed",
+  "email": "eslam@mail.com",
+  "password": "100200"
+}
+```
+- Response Example
+```sh
+{
+    "accessToken": "xxx.yyy.zzz",
+    "user": {
+        "email": "eslam@mail.com",
+        "name": "eslam mohamed",
+        "id": 8
+    }
+}
+##
 # 🔑 Authentication Flow
 - Passwords are encrypted using bcrypt.
 - JWT tokens contain the user ID (sub) and email.
