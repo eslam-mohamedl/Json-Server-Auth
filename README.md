@@ -57,6 +57,24 @@ npx json-server db.json -m ./node_modules/json-server-auth --port 3000
   }
 }
 ```
+
+## 📌 User Endpoints
+- `GET /users` - List Users
+## Response Example:
+```sh
+[
+  {
+    "id": 1,
+    "email": "example@gmail.com",
+    "name": "ahmed"
+  },
+  {
+    "id": 2,
+    "email": "user@gmail.com",
+    "name": "mohamed"
+  }
+]
+```
 ##
 # 🔑 Authentication Flow
 - Passwords are encrypted using bcrypt.
