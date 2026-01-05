@@ -52,7 +52,7 @@ npx json-server db.json -m ./node_modules/json-server-auth --port 3000
     }
 }
 ```
-## 1 - Request Login
+## 2 - Request Login
 - Method :  POST
 - Endpoint :  /login 
 - Body: 
@@ -93,7 +93,7 @@ npx json-server db.json -m ./node_modules/json-server-auth --port 3000
 ]
 ```
 ##
-## 1 - Request Get User
+## 2 - Request Get User
 - Method :  GET
 - Endpoint :  /users/1
 - Response Example:
@@ -107,7 +107,7 @@ npx json-server db.json -m ./node_modules/json-server-auth --port 3000
 ]
 ```
 ##
-## 1 - Request Create User
+## 3 - Request Create User
 - Method :  POST
 - Endpoint :  /users
 - Body :
@@ -130,7 +130,7 @@ npx json-server db.json -m ./node_modules/json-server-auth --port 3000
 }
 ```
 ##
-## 1 - Request Update User
+## 4 - Request Update User
 - Method :  PATCH
 - Endpoint :  /users/1
 - Body :
@@ -149,8 +149,9 @@ npx json-server db.json -m ./node_modules/json-server-auth --port 3000
 }
 ```
 ##
-- `DELETE /users/1` - Delete User
-- ##
+## 5 - Request Delete User
+- Method :  DELETE
+- Endpoint :  /users/3
 - Response Example
 ```sh
 {}
