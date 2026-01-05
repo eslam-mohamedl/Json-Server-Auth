@@ -36,79 +36,9 @@ npx json-server db.json -m ./node_modules/json-server-auth --port 3000
 - Body: 
 ```sh
 {
-  "name": "eslam mohamed",
-  "email": "test@mail.com",
-  "password": "123456"
-}
-```
-- Response Example
-```sh
-{
-    "accessToken": "xxx.yyy.zzz",
-    "user": {
-        "email": "test@mail.com",
-        "name": "eslam mohamed",
-        "id": 9
-    }
-}
-```
-
-- `POST /login` - Login
-## Body: 
-```sh
-{
-   "email": "test@mail.com",
-  "password": "123456"
-}
-```
-- Response Example
-```sh
-{
-  "accessToken": "xxx.yyy.zzz",
-  "user": {
-    "id": 1,
-    "email": "test@mail.com"
-  }
-}
-```
-
-## 📌 User Endpoints
-- `GET /users` - List Users
-## Response Example:
-```sh
-[
-  {
-    "id": 1,
-    "email": "example@gmail.com",
-    "name": "ahmed"
-  },
-  {
-    "id": 2,
-    "email": "user@gmail.com",
-    "name": "mohamed"
-  }
-]
-```
-##
-- `GET /users/1` - Get User
-## Response Example:
-```sh
-[
-  {
-    "id": 1,
-    "email": "example@gmail.com",
-    "name": "ahmed"
-  }
-]
-```
-##
-- `POST /users` - Create User
-## Body: 
-```sh
-{
-  "name": "eslam mohamed",
+  "name": "Eslam mohamed",
   "email": "eslam@mail.com",
-  "password": "100200"
+  "password": "102030"
 }
 ```
 - Response Example
@@ -117,26 +47,105 @@ npx json-server db.json -m ./node_modules/json-server-auth --port 3000
     "accessToken": "xxx.yyy.zzz",
     "user": {
         "email": "eslam@mail.com",
-        "name": "eslam mohamed",
-        "id": 8
+        "name": "Eslam mohamed",
+        "id": 3
+    }
+}
+```
+## 1 - Request Login
+- Method :  POST
+- Endpoint :  /login 
+- Body: 
+```sh
+{
+   "email": "eslam@mail.com",
+  "password": "102030"
+}
+```
+- Response Example:
+```sh
+{
+  "accessToken": "xxx.yyy.zzz",
+  "user": {
+    "id": 3,
+    "email": "eslam@mail.com"
+  }
+}
+```
+
+## 📌 User Endpoints
+## 1 - Request List Users
+- Method :  GET
+- Endpoint :  /users 
+- Response :
+```sh
+[
+  {
+    "id": 1,
+    "email": "example@gmail.com",
+    "name": "ahmed mohamed"
+  },
+  {
+    "id": 2,
+    "email": "user@gmail.com",
+    "name": "omar mohamed"
+  }
+]
+```
+##
+## 1 - Request Get User
+- Method :  GET
+- Endpoint :  /users/1
+- Response Example:
+```sh
+[
+  {
+    "id": 1,
+    "email": "example@gmail.com",
+    "name": "ahmed mohamed"
+  }
+]
+```
+##
+## 1 - Request Create User
+- Method :  POST
+- Endpoint :  /users
+- Body :
+```sh
+{
+  "name": "elsayed ahmed",
+  "email": "elsayed@mail.com",
+  "password": "123456"
+}
+```
+- Response Example : 
+```sh
+{
+    "accessToken": "xxx.yyy.zzz",
+    "user": {
+        "email": "elsayed@mail.com",
+        "name": "elsayed ahmed",
+        "id": 3
     }
 }
 ```
 ##
-- `PATCH /users/1` - Update User
-## Body: 
+## 1 - Request Update User
+- Method :  PATCH
+- Endpoint :  /users/1
+- Body :
 ```sh
 {
-  "name": "ahmed Updated"
+  "name": "elsayed ahmed mohamed"
 }
 ```
-- Response Example
+- Response Example :
 ```sh
 {
-    "email": "ee.eslam355@gmail.com",
+    "email": "elsayed@mail.com",
     "password": "$2a$10$jlrCq8uPt74qjOTKe/j3u.Mthr3KZ9kqCwkKtUf8nCviofNfd/a4y",
-    "name": "ahmed Updated",
-    "id": 1
+    "name": "elsayed ahmed mohamed",
+    "id": 3
 }
 ```
 ##
