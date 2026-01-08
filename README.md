@@ -132,7 +132,7 @@ npx json-server db.json -m ./node_modules/json-server-auth --port 3000
 ##
 ## 4 - Request Update User
 - Method :  PATCH
-- Endpoint :  /users/1
+- Endpoint :  /users/3
 - Body :
 ```sh
 {
