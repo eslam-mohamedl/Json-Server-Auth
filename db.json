@@ -1,32 +1,15 @@
 {
   "users": [
     {
-      "email": "ee.eslam355@gmail.com",
-      "password": "$2a$10$jlrCq8uPt74qjOTKe/j3u.Mthr3KZ9kqCwkKtUf8nCviofNfd/a4y",
-      "name": "ahmed",
+      "email": "example@gmail.com",
+      "name": "ahmed mohamed",
       "id": 1
     },
     {
-      "email": "aa.ahmed@gmail.com",
-      "password": "$2a$10$R5es1gmc.xMFPq70rFUqou0mx7WFSU4Zyi7Gy8S356dEPufImjTim",
-      "name": "ahmed",
+      "email": "user@gmail.com",
+      "password": "$2a$10$O.q2tOuMDwh9YCMNkkk7DuDhxHRmTxZqK2nJ0O5GxrL9eilL5JWtO",
+      "name": "omar mohamed",
       "id": 2
-    },
-    {
-      "email": "test@test.com",
-      "password": "$2a$10$S45PFE/5Pekf8SNXEByv..h2jqzf2iqjA9z70uqdU5zBQuV8/P9gm",
-      "name": "Eslam",
-      "id": 3
-    },
-    {
-      "email": "e.eslam355@gmail.com",
-      "password": "$2a$10$aDQcVaTu1oI6ismxAuRXh.PAUEPjJDrOQ8Ne46u.kvJsOB.PefaxK",
-      "id": 4
-    },
-    {
-      "email": "e.eslam35@gmail.com",
-      "password": "$2a$10$VJbhwQkVdNdaTMJy5V6YI.OVH5yz84HuNwyOFwq8liwoBMYcYVO8O",
-      "id": 5
     }
   ]
 }
