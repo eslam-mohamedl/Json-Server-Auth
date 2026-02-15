@@ -11,7 +11,7 @@ json-server + json-server-auth
 - ✅ Access control management (Read / Write)
 - ✅ Fully fake database using db.json
 - ✅ Password encryption with bcrypt
-- ✅ Quick setup, ideal for prototyping and learning
+- ✅ Quick setup, ideal for prototyping and learning learning
 # 
 ## 🛠️ Installation & Running
 1. Clone the repository
