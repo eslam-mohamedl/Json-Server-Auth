@@ -1,7 +1,7 @@
 ## JSON Server Auth Boilerplate 🚀
 
 A ready-to-use project for running a Fake Auth API using 
-json-server + json-server-auth code
+json-server + json-server-auth
 
 # 
 ## Features : 
