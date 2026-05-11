@@ -25,7 +25,7 @@ npm install
 ```
 3. Start the server
 ```sh
-npx json-server db.json -m ./node_modules/json-server-auth --port 3000
+npx json-server db.json -m ./node_modules/json-server-auth --port 3005
 
 ```
 #
