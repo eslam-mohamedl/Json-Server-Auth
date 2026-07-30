@@ -13,7 +13,7 @@ app.use(middlewares);
 // json-server-auth middleware
 app.use(auth);
 
-// router بعد ال auth
+// router  ال auth
 app.use(router);
 
 const PORT = 3007;
