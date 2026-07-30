@@ -3,8 +3,6 @@
 A ready-to-use project for running a Fake Auth API using 
 json-server-auth 
 
-new file 
-
 # 
 ## Features : 
 - ✅ User registration.
