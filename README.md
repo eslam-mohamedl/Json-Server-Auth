@@ -5,9 +5,9 @@ A ready-to-use project for running a Fake Auth API using
 
 # 
 ## Features : 
-- ✅ User registration 
-- ✅ User login
-- ✅ WT Access Token (expires in 1 hour)
+- ✅ User registration.
+- ✅ User login.
+- ✅ WT Access Token (expires in 1 hour).
 - ✅ Access control management (Read / Write)
 - ✅ Fully fake database using db.json
 - ✅ Password encryption with bcrypt
